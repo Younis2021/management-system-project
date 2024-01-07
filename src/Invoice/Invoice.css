@@ -1,0 +1,137 @@
+/* Add these styles to your existing Invoice.css */
+.invoice-page {
+  width: 81%;
+  height: 100vh;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.invoice-container {
+  background-color: #fff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  width: 80%;
+  overflow: scroll;
+}
+
+/* Additional styles for the client and product select boxes */
+.customer-input,
+.product-input {
+  background-color: #fff;
+  color: #007bff;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  outline: none;
+  cursor: pointer;
+}
+
+.customer-input::before,
+.product-input::before {
+  content: '';
+  text-align: center;
+  line-height: 45px;
+  color: #007bff;
+  background-color: rgba(0, 123, 255, 0.1);
+  pointer-events: none;
+}
+
+.customer-input:hover::before,
+.product-input:hover::before {
+  background-color: rgba(0, 123, 255, 0.2);
+}
+
+/* Add styles for the quantity input */
+.quantity-input {
+  background-color: #fff;
+  color: #007bff;
+  padding: 12px;
+  width: 90%;
+  margin-right: 2px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+
+/* Style the upper container elements */
+.date-info,
+.invoice-number-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+/* Additional styles for the invoice title */
+.invoice-title {
+  font-size: 37px;
+  font-weight: 600;
+  color: #007bff;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Style the client and product info sections */
+.customer-info, .product-info {
+  margin-top: 20px;
+}
+
+/* Style the client and product info sections */
+.customer-details, .product-details {
+  padding: 20px 0;
+}
+
+
+/* Style the Calculate Total and Generate Invoice buttons */
+.calculate-button, .generate-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 20px;
+  margin: 20px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+.generate-button {
+  background: #40e764;
+}
+
+.calculate-button:hover,
+.generate-button:hover {
+  opacity: 0.8;
+}
+
+/* Style the Invoice Total section */
+.invoice-total {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.total-label {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.total-amount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}

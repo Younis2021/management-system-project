@@ -1,0 +1,46 @@
+.welcome-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 81%;
+    height: 100vh;
+    background-color: #fff;
+    /* Adjust the background color */
+}
+
+.welcome-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome-content h1 {
+    font-size: 3rem;
+    color: #333;
+    /* Adjust the heading text color */
+    margin-bottom: 20px;
+}
+
+.welcome-content p {
+    font-size: 1.5rem;
+    color: #555;
+    /* Adjust the paragraph text color */
+    margin-bottom: 30px;
+}
+
+.get-started-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    /* Adjust the button background color */
+    color: #fff;
+    /* Adjust the button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started-button:hover {
+    background-color: #0056b3;
+    /* Adjust the button color on hover */
+}

@@ -1,0 +1,12 @@
+.show-products-page {
+  width: 81%;
+  height: 100vh;
+  overflow: scroll;
+  padding: 50px 24px;
+}
+
+.CardsDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

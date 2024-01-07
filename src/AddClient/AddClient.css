@@ -1,0 +1,101 @@
+.add-client-page {
+  width: 81%;
+  height: 100vh;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: scroll;
+}
+
+
+.add-client-page h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #333;
+
+}
+
+#client-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 0;
+}
+
+.add-client-page label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-client-page input[type="text"],
+.add-client-page input[type="file"] {
+  width: 85%;
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.add-client-page input[type="text"]:focus,
+.add-client-page input[type="file"]:focus {
+  border-color: #007bff;
+  background-color: #fff;
+}
+
+#button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin-top: 30px;
+}
+
+.add-client-page button {
+  width: 46%;
+  padding: 14px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-client-page button:last-child {
+  background-color: #dc3545;
+}
+
+.add-client-page button:hover {
+  background-color: #0056b3;
+}
+
+.add-client-page button:last-child:hover {
+  background-color: #c82333;
+}
+
+.select-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 0;
+}
+
+.select-container select {
+    width: 85%;
+    padding: 12px;
+    margin-bottom: 25px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+}
+
+.select-container select:focus {
+    border-color: #007bff;
+    background-color: #fff;
+}
